@@ -1,0 +1,9 @@
+body {
+	background-color: #f0f0f0;
+}
+
+h1, p {
+	font-family: "Times New Roman";
+	text-align: left;
+	margin-left: 0px;
+}

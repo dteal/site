@@ -19,9 +19,44 @@ img {
 	padding: 10px;
 }
 
-a:link, a:visited, a:hover, a:active{
+.project {
+	display: inline-block;
+	width: 480px;
+	background-color: #000000;
+	padding: 10px;
+	border: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.project-heading {
+	background-color: #000000;
+	padding: 10px;
+	border: 0px;
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.project-image {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.project-text {
+	color: #ffffff;
+	margin: 10px;
+}
+
+a {
 	color: #000080;
-	text-decoration: none;
+}
+
+.project-link{
+	color: #ffffff;
 }
 
 ul.navbar {

@@ -1,11 +1,13 @@
 body {
 	background-color: #c0c0c0;
 	padding: 0;
-	margin: 0;
 	border: 0;
+	margin: 0;
 }
 
 h1, h2, p, a {
+	padding: 0px;
+	border: 0px;
 	margin: 10px;
 	color: #000000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -13,49 +15,16 @@ h1, h2, p, a {
 	text-align: left;
 }
 
-img {
-	margin: 0px;
-	margin-left: 10px;
-	padding: 10px;
-}
-
-.project {
-	background-color: #404040;
-	padding: 10px;
-	border: 0px;
-	margin: 10px;
-	margin-bottom: 0px;
-}
-
-.project-heading {
-	background-color: #000000;
-	padding: 10px;
-	border: 0px;
-	margin: 10px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-.project-image {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-
-.project-text {
-	color: #ffffff;
-	margin: 10px;
-}
-
 a {
+	margin: 0px;
 	color: #000080;
 }
 
-.project-link{
-	color: #ffffff;
+img {
+	padding: 0px;
+	border: 0px;
+	margin: 10px;
 }
-
 
 .navbar ul{
 	background-color: #000080;
@@ -72,7 +41,6 @@ a {
 
 .navbar a{
 	display: block;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-weight: bold;
 	color: #e0e0e0;
 	background-color: #000080;
@@ -83,6 +51,27 @@ a {
 	text-transform: uppercase;
 }
 
-.navbar a:hover, ul a:active {
+.navbar a:hover{
 	background-color: #000040;
 }
+.project {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	display: inline-block;
+}
+
+.project-image {
+	padding: 0px;
+	border: 0px;
+	margin: 10px;
+	float: left;
+}
+
+.project-text {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+

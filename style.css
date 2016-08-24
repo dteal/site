@@ -6,9 +6,9 @@ body {
 }
 
 h1, h2, p, a {
-	padding: 0px;
-	border: 0px;
-	margin: 10px;
+	padding: 0;
+	border: 0;
+	margin: 10;
 	color: #000000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-style: normal;
@@ -16,13 +16,13 @@ h1, h2, p, a {
 }
 
 a {
-	margin: 0px;
+	margin: 0;
 	color: #000080;
 }
 
 img {
-	padding: 0px;
-	border: 0px;
+	padding: 0;
+	border: 0;
 	margin: 10px;
 }
 
@@ -55,23 +55,23 @@ img {
 	background-color: #000040;
 }
 .project {
-	padding: 0px;
-	border: 0px;
-	margin: 0px;
-	margin-top: 0px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	margin-top: 0;
 	display: inline-block;
 }
 
 .project-image {
-	padding: 0px;
-	border: 0px;
+	padding: 0;
+	border: 0;
 	margin: 10px;
 	float: left;
 }
 
 .project-text {
-	padding: 0px;
-	border: 0px;
-	margin: 0px;
+	padding: 0;
+	border: 0;
+	margin: 0;
 }
 

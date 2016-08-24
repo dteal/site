@@ -8,7 +8,7 @@ body {
 h1, h2, p, a {
 	padding: 0;
 	border: 0;
-	margin: 10;
+	margin: 10px;
 	color: #000000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-style: normal;

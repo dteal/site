@@ -1,0 +1,86 @@
+@font-face { font-family: texgyrepagella; src: url(resources/texgyrepagella-regular.otf); }
+@font-face { font-family: texgyrepagella; src: url(resources/texgyrepagella-bold.otf); font-weight: bold; }
+@font-face { font-family: texgyrepagella; src: url(resources/texgyrepagella-italic.otf); font-style: italic; }
+* { font-family: texgyrepagella; line-height: 150%; }
+
+html { background-color: #ddd; }
+body { max-width: 700px; margin: 0px auto; background-color: #ccc; }
+
+a { text-decoration: none; outline: 0px; }
+
+nav { overflow: hidden; background-color: #004225; }
+nav a {
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+}
+nav a:hover { background-color: #000; }
+header { margin: 30px 20px; text-align: justify; }
+header a { color: #000; text-decoration: underline; }
+
+.card {
+    display: block;
+    background-color: #ddd;
+    margin: 10px;
+    padding: 0px;
+    color: #000;
+    position: relative;
+}
+.card .left { display: table-cell; }
+.card .left img { height: 100px; vertical-align: middle; }
+.card .right { display: table-cell; vertical-align: middle;}
+.card::after{
+    box-shadow: 0px 0px 2px 0px inset;
+    content: '';
+    display: block;
+    position: absolute; top: 0; left: 0;
+    height: 100%; width: 100%;
+}
+.card .right h2 { margin: 0px 15px; }
+.card .right p { margin: 0px 15px; }
+.card:hover { background-color: #eee; }
+.card:hover img { opacity: 0.5; }
+
+.section { margin: 10px; font-weight: bold; }
+.link {
+    display: block;
+    background-color: #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px grey inset;
+    text-decoration: none;
+    margin: 10px; color: #000;
+}
+.link:hover { background-color: #eee; }
+
+.references { width: 100%; }
+.references td { text-align: center; }
+.cv { margin-left: 10px; margin-right: 10px; margin-top: -20px; margin-bottom: 30px; }
+.cv .left { vertical-align: top; text-align: right; padding: 0px 30px; }
+.cv .right { vertical-align: top; text-align: left; }
+.cv p { margin: 0px; }
+.table-section {
+    vertical-align: center;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+}
+.cv .right:hover { background-color: #bbb; }
+
+footer {
+    background-color: #004225;
+    color: #fff;
+    padding: 10px;
+}
+.license { display: table; }
+.license a { display: table-cell; vertical-align: middle; }
+.license img { vertical-align: middle; }
+.license p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;
+    font-size: 80%;
+    padding-left: 10px;
+}
+.update { text-align: center; font-size: 80%; margin-top: 10px; }

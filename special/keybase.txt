@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dteal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dteal.org
+  * I am dteal (https://keybase.io/dteal) on keybase.
+  * I have a public key ASAKzVzF5CcEW7UPrY01y-zXPnK4s1Lz4xHxxF0RPxgGOgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e2e99c8afa10c353cf00de801151d8ad038c2726f00ce72a24d28e0049a4961d0a",
+      "host": "keybase.io",
+      "kid": "01200acd5cc5e427045bb50fad8d35cbecd73e72b8b352f3e311f1c45d113f18063a0a",
+      "uid": "df8c01d67489ae556a505f3dbc255b19",
+      "username": "dteal"
+    },
+    "merkle_root": {
+      "ctime": 1559368490,
+      "hash": "bedd2980e995bc54c00f3f752101977c8ae91e04cae080261deeadd9d59f0b674e82b62730d2cd3cb9b27a4cce2aaea8ce8bae099948a63cb559fc876713708d",
+      "hash_meta": "ed69db07ff08d1d5f3109ea948dca17380d1546b810a7510b77151427227d298",
+      "seqno": 5486751
+    },
+    "service": {
+      "entropy": "ZsbymmqW8yTsMJ4r59KWezz3",
+      "hostname": "dteal.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1559368516,
+  "expire_in": 504576000,
+  "prev": "8e82ab3fb7c7d03115b4686d92b4a1c88a8f5689cb35a2184247a9664b3beb8f",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCs1cxeQnBFu1D62NNcvs1z5yuLNS8+MR8cRdET8YBjoKp3BheWxvYWTESpcCEMQgjoKrP7fH0DEVtGhtkrShyIqPVonLNaIYQkepZks764/EIOsI85306m1tpoQcjtPVl16gnbQjI7K4R0xnrmqdGpOGAgHCo3NpZ8RAj6IaV/i752qwDhycj18SYISYrIRN8/2BwFl0QrmlxWhsHAe6L1RwbKbwPjok+2sEFOy7mGwkm72qsPCNpiFUC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA2nSOwtr+v4pOBckDaQSWoCOMkkFFSP0/Uw7AJav6O6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dteal
+
+==================================================================

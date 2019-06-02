@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# Will, assuming correct permissions, deploy the site.
-# Define the environment variable QAUTE_USER to be the username.
+# Will, assuming correct permissions, build and deploy the site.
+# Define the environment variable DTEAL_SITE to be username@server.
 
-set -o nounset
-set -o errexit
-
-_die () { err_code=$1; shift 1; echo $@ >&2; exit $err_code; }
-
-rsync -rlz --delete --partial --info=progress2 -e "ssh" * \
-    ${QAUTE_USER}@hactar.dreamhost.com:~/qaute.com || \
-    _die 2 "Failed to upload website"
+python3 ./site.py
+ssh $DTEAL_SITE rm -rf dteal.org/*
+rsync -rlz --partial --info=progress2 -e "ssh" bin/* $DTEAL_SITE:~/dteal.org
+ssh $DTEAL_SITE chmod -R 755 dteal.org/*

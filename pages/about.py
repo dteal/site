@@ -15,12 +15,12 @@ content="""<header>
 <td><a href="https://orcid.org/0000-0002-4006-3204" class="link">ORCID</a></td>
 </tr>
 </table>
-<p>Below is my CV. You can download it in PDF form <a href="resources/cv-dteal.pdf"><b>here</b></a>.</p>
+<p>Below is my CV. You can download it in PDF form <a href="resources/cv_dteal.pdf"><b>here</b></a>.</p>
 </header>
 <table class="cv">
 <tr><td colspan=2 class="table-section">Education</td></tr>
 <tr><td class="left">2015-2019</div>
-<td class="right"><b>University of Texas at Austin</b>,<br><em>Mechanical Engineering &amp; Mathematics, 3.88/4.00</em>.<p>nanopatterning, nanoenergy, materials science, dynamic systems, thermodynamics, organic chemistry, heat transfer, numerical analysis</p></td></tr>
+<td class="right"><b>University of Texas at Austin</b>,<br><em>Mechanical Engineering &amp; Mathematics, 3.7/4.0</em>.<p>nanopatterning, nanoenergy, materials science, dynamic systems, thermodynamics, organic chemistry, heat transfer, numerical analysis</p></td></tr>
 <tr><td class="left">2011-2015</div>
 <td class="right"><b>Liberal Arts and Science Academy High School</b>.</td></tr>
 """
@@ -36,7 +36,7 @@ Experience('5/18-8/18', 'NNCI iREU : Nano Functionality Integration Group', 'res
 Experience('6/17-8/17', 'REU : Cornell NanoScale Facility', 'research intern', 'Created low power voltage rectifiers in the CNF fab. Performed mask design, photolithography, evaporation, graphene application, automated 200 MHz electrical tests, and UHF vibrometry.'),
 Experience('9/15-now', 'UT Longhorn Maker Studios', 'student assistant', 'Trained students for and maintained laser cutters and 3D printers. Attained proficiency in rapid prototyping equipment. Proposed and ran large student hardware hackathon in collaboration with ME Undergraduate Advisory Board.'),
 Experience('9/15-now', 'UT IEEE Robotics & Automation Society', 'Robotathon & webmaster', 'Organized the annual RAS introductory student robotics competition, Robotathon, while rewriting and maintaining the club website. Also built assorted small robots and large robotic couch.'),
-Experience('8/17-now', 'UT ME Undergraduate Advisory Board', 'member', 'Proposed, designed, and ran the first UT engineering Createathon hardware hackathon with ≈ 50 students and multiple corporate sponsors in collaboration with the UT makerspace.'),
+Experience('8/17-now', 'UT ME Undergraduate Advisory Board', 'member', 'Proposed, designed, and ran the first UT engineering Createathon hardware hackathon with ≈ 50 students and multiple corporate sponsors in collaboration with the UT makerspace. Organized the second a year later.'),
 Experience('11/16-5/17', 'Zheng Research Group', 'research assistant', 'Reviewed plasmonic nanostructures.'),
 Experience('11/15-11/16', 'UT Advanced Manufacturing Center', 'research assistant', 'Designed and fabricated head impact metrology equipment for future research. Mounted 30 psi baseball air cannon to steel frame and SLS nylon dummy head. Automated measurements and tested high-speed camera.'),
 Experience('6/15-8/15', 'UT Applied Research Laboratories', 'intern', 'Acoustically detected unmanned aerial vehicles. Used digital signal processing to estimate range of common Phantom 3 pro quadcopter from analysis of its ultrasonic altitude finder and propeller noise under laboratory conditions.'),
@@ -51,6 +51,7 @@ for experience in experiences:
 content += '<tr><td colspan=2 class="table-section">Honors &amp; Affiliations</td></tr>\n'
 
 experiences = [
+Experience('2019', 'NSF GRFP Fellowship', 'recipient', ''),
 Experience('3/16-5/17', 'UT Longhorn Maker Studios Club', 'president', ''),
 Experience('9/15-5/16', '512 Hyperloop', 'member', ''),
 Experience('2015', 'ASME', 'student member', ''),
@@ -73,8 +74,8 @@ class Skill:
 skills=[
 Skill('Tooling', 'Laser cutter, FDM 3D printer, cleanroom (var.), measurement (var.).'),
 Skill('Domains', 'Mechanics, electronics, computation.'),
-Skill('CAD', 'SolidWorks, Fusion 360, OpenSCAD.'),
-Skill('Languages', 'Python; some C/C++, LabVIEW, Verilog, Java, HTML/CSS, TI-BASIC.'),
+Skill('CAD', 'SolidWorks, Fusion 360, KiCad.'),
+Skill('Languages', 'Python; some Verilog, C/C++, LabVIEW, Java, HTML/CSS, TI-BASIC.'),
 Skill('Software', 'Linux, Windows, Excel, MATLAB, Word, LaTeX.')
 ]
 for skill in skills:

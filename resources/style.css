@@ -1,7 +1,7 @@
-@font-face { font-family: texgyrepagella; src: url(resources/texgyrepagella-regular.otf); }
-@font-face { font-family: texgyrepagella; src: url(resources/texgyrepagella-bold.otf); font-weight: bold; }
-@font-face { font-family: texgyrepagella; src: url(resources/texgyrepagella-italic.otf); font-style: italic; }
-* { font-family: texgyrepagella; line-height: 150%; }
+@font-face { font-family: dejavu; src: url(resources/dejavu_sans.ttf); }
+@font-face { font-family: dejavu; src: url(resources/dejavu_sans_bold.otf); font-weight: bold; }
+@font-face { font-family: dejavu; src: url(resources/dejavu_sans_oblique.otf); font-style: italic; }
+* { font-family: dejavu, serif; line-height: 150%; }
 
 html { background-color: #ddd; }
 body { max-width: 700px; margin: 0px auto; background-color: #ccc; }

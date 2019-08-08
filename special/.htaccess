@@ -1,0 +1,6 @@
+# redirect http to https
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+header add X-Clacks-Overhead "GNU Terry Pratchett"

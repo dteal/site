@@ -5,7 +5,7 @@ content="""<header>
 <p>Hello, world.</p>
 <p>I'm Daniel Teal, a mechanical engineer and mathematician. I'm a graduate student at Berkeley, where I design and build tiny robots. I appreciate freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and globalization.</p>
 <p>I am interested in nanomanufacturing, self-assembly, and computation.</p>
-<p>Please contact me at <b>daniel at teals dot org</b>.</p>
+<p>Please contact me at <b>dteal at dteal dot org</b>.</p>
 <p>My key is <a href="resources/dteal.asc"><b>D127 41E4 9070 D3D0 F9E7  CDD8 F785 AAF2 07BD F883</b></a>.</p>
 <p>You may be interested in my <a href="research.html"><b>research</b></a> or <a href="projects.html"><b>projects</b></a>, but can also find me at:</p>
 <table class="references">

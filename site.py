@@ -29,7 +29,10 @@ def create():
 
     # copy other
     for item in os.listdir('special'):
-        shutil.copy('special/{}'.format(item), 'bin/{}'.format(item))
+        if os.path.isfile('special/{}'.format(item)):
+            shutil.copy('special/{}'.format(item), 'bin/{}'.format(item))
+        else:
+            shutil.copytree('special/{}'.format(item), 'bin/{}'.format(item))
 
 def head(title):
     """Create head string."""

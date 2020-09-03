@@ -19,6 +19,8 @@ content="""<header>
 </header>
 <table class="cv">
 <tr><td colspan=2 class="table-section">Education</td></tr>
+<tr><td class="left">2019-now</div>
+<td class="right"><b>University of California, Berkeley</b>,<br><em>PhD Electrical Engineering, MEMS, Pister Autonomous Microsystems Lab</em>.</td></tr>
 <tr><td class="left">2015-2019</div>
 <td class="right"><b>University of Texas at Austin</b>,<br><em>Mechanical Engineering &amp; Mathematics, 3.7/4.0</em>.<p>nanopatterning, nanoenergy, materials science, dynamic systems, thermodynamics, organic chemistry, heat transfer, numerical analysis</p></td></tr>
 <tr><td class="left">2011-2015</div>
@@ -31,7 +33,8 @@ class Experience:
     def __init__(self, date, location, position, description):
         self.date=date; self.location=location; self.position=position; self.description=description
 experiences = [
-Experience('8/17-now', 'Fan Nanomaterial Innovation Lab', 'research assistant', 'Automating nanowire assembly. Implemented computer vision-based detection of nanowires at ≈ 500 Hz and a custom FPGA-based programmable 4-channel arbitrary function generator for vastly improved electric tweezers control.'),
+Experience('7/19-now', 'Pister Autonomous Microsystems Lab', 'PhD student', 'Building MEMS robots.'),
+Experience('8/17-6/19', 'Fan Nanomaterial Innovation Lab', 'research assistant', 'Automating nanowire assembly. Implemented computer vision-based detection of nanowires at ≈ 500 Hz and a custom FPGA-based programmable 4-channel arbitrary function generator for vastly improved electric tweezers control.'),
 Experience('5/18-8/18', 'NNCI iREU : Nano Functionality Integration Group', 'research intern', 'Studied neuromorphic computation in random PVP@Ag nanowire networks via computer simulations and physical experiment. Learned international research culture in Tusukuba, Japan.'),
 Experience('6/17-8/17', 'REU : Cornell NanoScale Facility', 'research intern', 'Created low power voltage rectifiers in the CNF fab. Performed mask design, photolithography, evaporation, graphene application, automated 200 MHz electrical tests, and UHF vibrometry.'),
 Experience('9/15-now', 'UT Longhorn Maker Studios', 'student assistant', 'Trained students for and maintained laser cutters and 3D printers. Attained proficiency in rapid prototyping equipment. Proposed and ran large student hardware hackathon in collaboration with ME Undergraduate Advisory Board.'),

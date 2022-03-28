@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Create site."""
 
 import os
@@ -51,7 +51,7 @@ def head(title):
 
 def navbar():
     """Create navbar string."""
-    pages = ['index', 'projects', 'research', 'links', 'about']
+    pages = ['index', 'projects', 'research', 'about']
     output = ''
     output += '<nav>\n'
     for page in pages:
@@ -62,12 +62,15 @@ def navbar():
 def footer():
     """Create footer string."""
     import datetime
-    license_link = 'http://creativecommons.org/publicdomain/zero/1.0/'
-    license_image = 'resources/cc-zero.svg'
+    license_link = 'https://creativecommons.org/licenses/by/4.0/'
+    license_image = 'resources/cc-by.png'
     license_notice = 'To the extent possible under law, Daniel Teal has' \
                      ' waived all copyright and related or neighboring' \
                      ' rights to this website. This work is published' \
                      ' from the United States.'
+
+    license_notice = 'This site is licensed under a Creative Commons' \
+        ' Attribution 4.0 International License</a>.'
     date = datetime.datetime.today().strftime('%d %B %Y')
     output = ''
     output += '<footer>\n'
@@ -78,7 +81,7 @@ def footer():
     output += '<p>' + license_notice + '</p>\n'
     output += '</div>\n'
     output += '<div class="update">\n'
-    output += 'This site was last updated on {}.\n'.format(date)
+    output += 'Last updated on {}.\n'.format(date)
     output += '</div>\n'
     output += '</footer>\n'
     output += '</body>\n'

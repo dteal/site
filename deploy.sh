@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Will, assuming correct permissions, build and deploy the site.
 # Define the environment variable DTEAL_SITE to be username@server.

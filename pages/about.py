@@ -76,7 +76,7 @@ Skill('Microfabrication', 'lithography, deposition, etching, metrology, packagin
 Skill('Prototyping', '3D printing, laser cutting, CNC'),
 Skill('Hardware', 'automation, thermal systems, vacuum systems'),
 Skill('CAD + FEA', 'SolidWorks, Fusion 360, KiCad, some ANSYS & COMSOL'),
-Skill('Software', 'Python, C/C++, Rust, LaTeX, Linux'),
+Skill('Software', 'Python, C/C++, Rust, LaTeX, Linux, HTML/CSS'),
 ]
 for skill in skills:
     content += '<tr><td class="left"><b>' + skill.domain + '</b></td>\n'

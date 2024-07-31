@@ -20,7 +20,9 @@ def create():
         output = open('bin/{}.html'.format(page), 'w')
         output.write(head(data['title']))
         output.write(navbar())
+        output.write('<div class="content">')
         output.write(data['content'])
+        output.write('</div>')
         output.write(footer())
         output.close()
 
@@ -38,10 +40,11 @@ def head(title):
     """Create head string."""
     output = ''
     output += '<!doctype html>\n'
-    output += '<html lang="en">\n'
+    output += '<html lang="en-US">\n'
     output += '<head>\n'
-    output += '<title>' + title + ' - Daniel Teal</title>\n'
     output += '<meta charset="utf-8">\n'
+    output += '<title>' + title + ' - Daniel Teal</title>\n'
+    output += '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     output += '<meta name="referrer" content="no-referrer">\n'
     output += '<link rel="stylesheet" type="text/css" href="resources/style.css">\n'
     output += '<link rel="icon" type="image/x-icon" href="resources/favicon.ico">\n'
@@ -51,7 +54,7 @@ def head(title):
 
 def navbar():
     """Create navbar string."""
-    pages = ['index', 'projects', 'research', 'about']
+    pages = ['index', 'portfolio', 'about']
     output = ''
     output += '<nav>\n'
     for page in pages:
@@ -70,10 +73,10 @@ def footer():
                      ' from the United States.'
 
     license_notice = 'This site is licensed under a Creative Commons' \
-        ' Attribution 4.0 International License</a>.'
+        ' Attribution 4.0 International License.'
     date = datetime.datetime.today().strftime('%d %B %Y')
     output = ''
-    output += '<footer>\n'
+    output += '<div class="footer">\n'
     output += '<div class="license">\n'
     output += '<a rel="license" href="' + license_link + '">'
     output += '<img src="' + license_image + '" alt="CC0"/>'
@@ -83,7 +86,7 @@ def footer():
     output += '<div class="update">\n'
     output += 'Last updated on {}.\n'.format(date)
     output += '</div>\n'
-    output += '</footer>\n'
+    output += '</div>\n'
     output += '</body>\n'
     output += '</html>'
     return output

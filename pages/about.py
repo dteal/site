@@ -7,6 +7,7 @@ content="""<h1>About / Daniel Teal</h1>
 <p>Please contact me at <b>dteal at dteal dot org</b>. I'm happy to talk!</p>
 <p>My key is <a href="resources/dteal.asc"><b>903D 4542 C569 5735 232D  C027 C24D 4FF7 94B4 E724</b></a>.</p>
 <p>(<a href="resources/dteal-old.asc">previous key</a>)</p>
+<p>Download my resume in PDF format <a href="resources/resume-dteal.pdf"><b>here</b></a>.</p>
 <p>You may be interested in my <a href="portfolio.html"><b>projects</b></a>, but can also find me at:</p>
 <table class="references">
 <tr>

@@ -19,6 +19,7 @@ cards = [
 #Link('2015', 'resources/research/uav/poster.pdf', 'Unmanned Aerial Vehicle Detection via Acoustic Feature Extraction')
 
 Card('2024', 'resources/projects/2024-vacuum/vacuum.jpg', 'Vacuum Nanoparticle Deposition', 'custom vacuum+process equipment for research', 'resources/projects/2024-vacuum/thumb.jpg'),
+Card('2024', 'resources/projects/2024-wavegen/wavegen.jpg', 'HV Arbitrary Waveform Generator', 'modular ±100V 1MHz programmable ouputs', 'resources/projects/2024-wavegen/wavegen-thumb.jpg'),
 Card('2023', 'resources/projects/2023-ee143/wafer.jpg', 'NMOS Transistors', 'from teaching Berkeley\'s EE143 microfabrication course', 'resources/projects/2023-ee143/thumb.jpg'),
 Card('2022', 'resources/projects/2022-joule-bonding/joulebonding.pdf', 'Localized Joule Heating', 'playing with on-chip multipoint temperature control</p><p> https://doi.org/10.1109/MEMS51670.2022.9699553', 'resources/projects/2022-joule-bonding/thumb.jpg'),
 Card('2021', 'resources/projects/2021-robust-inchworm-motors/robustinchworms.pdf', 'Better Robust MEMS Motors', 'including the world\'s longest MEMS electrostatic motor</p><p>https://doi.org/10.1109/Transducers50396.2021.9495446', 'resources/projects/2021-robust-inchworm-motors/thumb.jpg'),

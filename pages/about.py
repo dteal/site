@@ -76,6 +76,7 @@ skills=[
 Skill('Microfabrication', 'lithography, deposition, etching, metrology, packaging'),
 Skill('Prototyping', '3D printing, laser cutting, CNC'),
 Skill('Hardware', 'automation, thermal systems, vacuum systems'),
+Skill('Electronics', 'some PCB design, analog electronics'),
 Skill('CAD + FEA', 'SolidWorks, Fusion 360, KiCad, some ANSYS & COMSOL'),
 Skill('Software', 'Python, C/C++, Rust, LaTeX, Linux, HTML/CSS'),
 ]

@@ -2,8 +2,8 @@ title = 'About'
 
 content="""<h1>About / Daniel Teal</h1>
 <p>Hello, world.</p>
-<p>I'm Daniel Teal, an engineer. I'm a PhD student at Berkeley where I build tools to build computer chips. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
-<p>I am interested in manufacturing, especially at the nanoscale. Automation and computation are also fun.</p>
+<p>I'm Daniel Teal, and engineer. I'm finishing my PhD at Berkeley where I study microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
+<p>My main interest is semiconductor manufacturing equipment. I'm a mechanical engineer with additional experience in semiconductor microfabrication and processing, electronics, and software.</p>
 <p>Please contact me at <b>dteal at dteal dot org</b>. I'm happy to talk!</p>
 <p>My key is <a href="resources/dteal.asc"><b>903D 4542 C569 5735 232D  C027 C24D 4FF7 94B4 E724</b></a>.</p>
 <p>(<a href="resources/dteal-old.asc">previous key</a>)</p>
@@ -25,9 +25,8 @@ class Experience:
     def __init__(self, date, location, position, description):
         self.date=date; self.location=location; self.position=position; self.description=description
 experiences = [
-Experience('7/19-now', 'University of California, Berkeley', 'electrical engineering PhD student', 'Studied microfabrication. Developed direct-write nanoparticle deposition techniques. Built custom vacuum chambers, electronics, and process equipment. Also built world\'s longest MEMS electrostatic motor in Berkeley Marvell NanoLab research fab. Advised by Prof. Kristofer Pister.'),
-Experience('2024-now', 'Microfabrication Startup (in stealth)', 'founder', 'Building on my PhD work to provide fast custom semiconductor manufacturing services via direct-write printing. Currently bootstrapping, part-time/hobby-level.'),
-Experience('8/22-5/24', 'Berkeley EE143 Microfabrication Class', 'lead teaching assistant', 'Taught hands-on lab course (Berkeley EE143) building NMOS transistors from scratch on silicon wafers, four semesters in a row. Instructed students, maintained equipment, troubleshot processes, and managed other TAs.'),
+Experience('7/19-9/24', 'University of California, Berkeley', 'electrical engineering PhD student', 'Studied microfabrication. Developed direct-write nanoparticle deposition techniques. Built custom vacuum chambers, electronics, and process equipment. Also built world\'s longest MEMS electrostatic motor in Berkeley Marvell NanoLab research fab. Advised by Prof. Kristofer Pister.'),
+Experience('8/22-5/24', 'Berkeley EE143 Microfabrication', 'lead teaching assistant', 'Taught hands-on lab course (Berkeley EE143) building NMOS transistors from scratch on silicon wafers, four semesters in a row. Instructed students, maintained equipment, troubleshot processes, and managed other TAs.'),
 Experience('8/17-6/19', 'Fan Nanomaterial Innovation Lab', 'research assistant', 'Automated nanowire assembly. Implemented computer vision-based detection of nanowires at ≈ 500 Hz and a custom FPGA-based programmable 4-channel arbitrary function generator for vastly improved electric tweezers control.'),
 Experience('5/18-8/18', 'NNCI iREU : Nano Functionality Integration Group', 'research intern', 'Studied neuromorphic computation in random PVP@Ag nanowire networks via computer simulations and physical experiment. Learned international research culture in Tusukuba, Japan.'),
 Experience('6/17-8/17', 'REU : Cornell NanoScale Facility', 'research intern', 'Created low power voltage rectifiers in the CNF fab. Performed mask design, photolithography, evaporation, graphene application, automated 200 MHz electrical tests, and UHF vibrometry.'),
@@ -73,11 +72,11 @@ class Skill:
     def __init__(self, domain, tools):
         self.domain = domain; self.tools = tools
 skills=[
-Skill('Microfabrication', 'lithography, deposition, etching, metrology, packaging'),
+Skill('Microfabrication', 'MEMS, litho, deposition, etching, metrology, packaging'),
+Skill('Hardware', 'part design/simulation/fab, thermal/vacuum systems'),
 Skill('Prototyping', '3D printing, laser cutting, CNC'),
-Skill('Hardware', 'automation, thermal systems, vacuum systems'),
-Skill('Electronics', 'some PCB design, analog electronics'),
-Skill('CAD + FEA', 'SolidWorks, Fusion 360, KiCad, some ANSYS & COMSOL'),
+Skill('Electronics', 'KiCad PCB design, analog electronics, some embedded'),
+Skill('CAD + FEA', 'SolidWorks, Fusion, SIMION, some ANSYS & COMSOL'),
 Skill('Software', 'Python, C/C++, Rust, LaTeX, Linux, HTML/CSS'),
 ]
 for skill in skills:

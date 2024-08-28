@@ -2,7 +2,7 @@ title = 'About'
 
 content="""<h1>About / Daniel Teal</h1>
 <p>Hello, world.</p>
-<p>I'm Daniel Teal, and engineer. I'm finishing my PhD at Berkeley where I study microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
+<p>I'm Daniel Teal, an engineer. I'm finishing my PhD at Berkeley where I study microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
 <p>My main interest is semiconductor manufacturing equipment. I'm a mechanical engineer with additional experience in semiconductor microfabrication and processing, electronics, and software.</p>
 <p>Please contact me at <b>dteal at dteal dot org</b>. I'm happy to talk!</p>
 <p>My key is <a href="resources/dteal.asc"><b>903D 4542 C569 5735 232D  C027 C24D 4FF7 94B4 E724</b></a>.</p>

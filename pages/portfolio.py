@@ -18,6 +18,7 @@ cards = [
 #Link('2016', 'resources/research/fire/poster.pdf', 'Energy Storage Demo Rig'),
 #Link('2015', 'resources/research/uav/poster.pdf', 'Unmanned Aerial Vehicle Detection via Acoustic Feature Extraction')
 
+Card('2024', 'resources/projects/2024-multimaterial/octothorpe.jpg', 'Multimaterial Nanoscale Printing', 'my PhD thesis: how to 3D print silicon [PDF coming soon]', 'resources/projects/2024-multimaterial/octothorpe-thumb.jpg'),
 Card('2024', 'resources/projects/2024-vacuum/vacuum.jpg', 'Vacuum Nanoparticle Deposition', 'custom vacuum+process equipment for research', 'resources/projects/2024-vacuum/thumb.jpg'),
 Card('2024', 'resources/projects/2024-wavegen/wavegen.jpg', 'HV Arbitrary Waveform Generator', 'modular ±100V 1MHz programmable outputs', 'resources/projects/2024-wavegen/wavegen-thumb.jpg'),
 Card('2023', 'resources/projects/2023-ee143/wafer.jpg', 'NMOS Transistors', 'from teaching Berkeley\'s EE143 microfabrication course', 'resources/projects/2023-ee143/thumb.jpg'),

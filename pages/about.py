@@ -2,7 +2,7 @@ title = 'About'
 
 content="""<h1>About / Daniel Teal</h1>
 <p>Hello, world.</p>
-<p>I'm Daniel Teal, an engineer. I'm finishing my PhD at Berkeley where I study microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
+<p>I'm Daniel Teal, an engineer. I'm finishing my PhD at Berkeley (update October 2024: dissertation talk is complete and I'm in the process of turning in my dissertation!) where I study microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
 <p>My main interest is semiconductor manufacturing equipment. I'm a mechanical engineer with additional experience in semiconductor microfabrication and processing, electronics, and software.</p>
 <p>Please contact me at <b>dteal at dteal dot org</b>. I'm happy to talk!</p>
 <p>My key is <a href="resources/dteal.asc"><b>903D 4542 C569 5735 232D  C027 C24D 4FF7 94B4 E724</b></a>.</p>
@@ -25,7 +25,7 @@ class Experience:
     def __init__(self, date, location, position, description):
         self.date=date; self.location=location; self.position=position; self.description=description
 experiences = [
-Experience('7/19-9/24', 'University of California, Berkeley', 'electrical engineering PhD student', 'Studied microfabrication. Developed direct-write nanoparticle deposition techniques. Built custom vacuum chambers, electronics, and process equipment. Also built world\'s longest MEMS electrostatic motor in Berkeley Marvell NanoLab research fab. Advised by Prof. Kristofer Pister.'),
+Experience('7/19-10/24', 'University of California, Berkeley', 'electrical engineering PhD student', 'Studied microfabrication. Developed direct-write nanoparticle deposition techniques. Built custom vacuum chambers, electronics, and process equipment. Also built world\'s longest MEMS electrostatic motor in Berkeley Marvell NanoLab research fab. Advised by Prof. Kristofer Pister.'),
 Experience('8/22-5/24', 'Berkeley EE143 Microfabrication', 'lead teaching assistant', 'Taught hands-on lab course (Berkeley EE143) building NMOS transistors from scratch on silicon wafers, four semesters in a row. Instructed students, maintained equipment, troubleshot processes, and managed other TAs.'),
 Experience('8/17-6/19', 'Fan Nanomaterial Innovation Lab', 'research assistant', 'Automated nanowire assembly. Implemented computer vision-based detection of nanowires at ≈ 500 Hz and a custom FPGA-based programmable 4-channel arbitrary function generator for vastly improved electric tweezers control.'),
 Experience('5/18-8/18', 'NNCI iREU : Nano Functionality Integration Group', 'research intern', 'Studied neuromorphic computation in random PVP@Ag nanowire networks via computer simulations and physical experiment. Learned international research culture in Tusukuba, Japan.'),
@@ -48,7 +48,7 @@ content += '</table>\n' #experience
 content += '<div class="cvheading"><h2>Education</h2><div class="cvline"></div></div>\n'
 content += '<table class="cvtable">\n'
 content += """
-<tr><td class="left">2019-now</div>
+<tr><td class="left">2019-2024</div>
 <td class="right"><b>University of California, Berkeley</b><br><em>PhD Electrical Engineering and Computer Science</em><p>microfabrication and process engineering, MEMS</p></td></tr>
 <tr><td class="left">2015-2019</div>
 <td class="right"><b>University of Texas at Austin</b><br><em>BS Mechanical Engineering, BS Mathematics</em><p>solids/dynamics, materials science, dynamic systems, thermodynamics, organic chemistry, heat transfer, numerical analysis</p></td></tr>
@@ -58,12 +58,15 @@ content += '</table>\n' #education
 content += '<div class="cvheading"><h2>Honors</h2><div class="cvline"></div></div>\n'
 content += '<table class="cvtable">\n'
 experiences = [
-Experience('2019', 'NSF GRFP Fellowship', 'recipient', ''),
-Experience('2016', 'Tau Beta Pi', 'engineering honor society member', ''),
+Experience('2020 and 2024', 'Fall BSAC Conference Best Presentation Award', '', ''),
+Experience('2022-2023', 'Demetri Angelakos Memorial Achievement Award', '', ''),
+Experience('2019', 'NSF GRFP Fellowship', '', ''),
 ]
 for experience in experiences:
     content += '<tr><td class="left">' + experience.date + '</td>\n'
-    content += '<td class="right"><b>' + experience.location + '</b>, <em>' + experience.position + '</em></td></tr>\n'
+    #content += '<td class="right"><b>' + experience.location + '</b>, <em>' + experience.position + '</em></td></tr>\n'
+    # no comma after award name
+    content += '<td class="right"><b>' + experience.location + '</b> <em>' + experience.position + '</em></td></tr>\n'
 content += '</table>\n' #honors
 
 content += '<div class="cvheading"><h2>Skills</h2><div class="cvline"></div></div>\n'

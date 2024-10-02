@@ -47,10 +47,9 @@ content += '</table>\n' #experience
 
 content += '<div class="cvheading"><h2>Education</h2><div class="cvline"></div></div>\n'
 content += '<table class="cvtable">\n'
-content += """
-<tr><td class="left">2019-2024</div>
+content += """<tr><td class="left">2019-2024</td>
 <td class="right"><b>University of California, Berkeley</b><br><em>PhD Electrical Engineering and Computer Science</em><p>microfabrication and process engineering, MEMS</p></td></tr>
-<tr><td class="left">2015-2019</div>
+<tr><td class="left">2015-2019</td>
 <td class="right"><b>University of Texas at Austin</b><br><em>BS Mechanical Engineering, BS Mathematics</em><p>solids/dynamics, materials science, dynamic systems, thermodynamics, organic chemistry, heat transfer, numerical analysis</p></td></tr>
 """
 content += '</table>\n' #education

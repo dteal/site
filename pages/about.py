@@ -2,13 +2,13 @@ title = 'About'
 
 content="""<h1>About / Daniel Teal</h1>
 <p>Hello, world.</p>
-<p>I'm Daniel Teal, an engineer. I'm finishing my PhD at Berkeley (update October 2024: dissertation talk is complete and I'm in the process of turning in my dissertation!) where I study microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
+<p>I'm Daniel Teal, an engineer. I've just finished my PhD at Berkeley where I studied microfabrication. I appreciate kindness, freedom, morality, and a good day's work. I look forward to nanotechnology, spaceflight, and a good future.</p>
 <p>My main interest is semiconductor manufacturing equipment. I'm a mechanical engineer with additional experience in semiconductor microfabrication and processing, electronics, and software.</p>
-<p>Please contact me at <b>dteal at dteal dot org</b>. I'm happy to talk!</p>
+<p>Email me at <b>dteal@dteal.org</b> or <b>dteal@berkeley.edu</b>. I'm happy to talk!</p>
 <p>My key is <a href="resources/dteal.asc"><b>903D 4542 C569 5735 232D  C027 C24D 4FF7 94B4 E724</b></a>.</p>
 <p>(<a href="resources/dteal-old.asc">previous key</a>)</p>
 <p>Download my resume in PDF format <a href="resources/resume-dteal.pdf"><b>here</b></a>.</p>
-<p>You may be interested in my <a href="portfolio.html"><b>projects</b></a>, but can also find me at:</p>
+<p>You may be interested in my <a href="index.html"><b>projects</b></a>, but can also find me at:</p>
 <table class="references">
 <tr>
 <td><a href="https://www.linkedin.com/in/dteal/" class="link">LinkedIn</a></td>
@@ -25,7 +25,7 @@ class Experience:
     def __init__(self, date, location, position, description):
         self.date=date; self.location=location; self.position=position; self.description=description
 experiences = [
-Experience('7/19-10/24', 'University of California, Berkeley', 'electrical engineering PhD student', 'Studied microfabrication. Developed direct-write nanoparticle deposition techniques. Built custom vacuum chambers, electronics, and process equipment. Also built world\'s longest MEMS electrostatic motor in Berkeley Marvell NanoLab research fab. Advised by Prof. Kristofer Pister.'),
+Experience('7/19-12/24', 'University of California, Berkeley', 'electrical engineering PhD student', 'Studied microfabrication. Developed direct-write nanoparticle deposition techniques. Built custom vacuum chambers, electronics, and process equipment. Also built world\'s longest MEMS electrostatic motor in Berkeley Marvell NanoLab research fab. Advised by Prof. Kristofer Pister.'),
 Experience('8/22-5/24', 'Berkeley EE143 Microfabrication', 'lead teaching assistant', 'Taught hands-on lab course (Berkeley EE143) building NMOS transistors from scratch on silicon wafers, four semesters in a row. Instructed students, maintained equipment, troubleshot processes, and managed other TAs.'),
 Experience('8/17-6/19', 'Fan Nanomaterial Innovation Lab', 'research assistant', 'Automated nanowire assembly. Implemented computer vision-based detection of nanowires at ≈ 500 Hz and a custom FPGA-based programmable 4-channel arbitrary function generator for vastly improved electric tweezers control.'),
 Experience('5/18-8/18', 'NNCI iREU : Nano Functionality Integration Group', 'research intern', 'Studied neuromorphic computation in random PVP@Ag nanowire networks via computer simulations and physical experiment. Learned international research culture in Tusukuba, Japan.'),

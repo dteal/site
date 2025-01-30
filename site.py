@@ -54,7 +54,8 @@ def head(title):
 
 def navbar():
     """Create navbar string."""
-    pages = ['index', 'portfolio', 'about']
+    #pages = ['index', 'portfolio', 'about']
+    pages = ['index', 'about']
     output = ''
     output += '<nav>\n'
     for page in pages:
